@@ -9,8 +9,8 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 io.on('connection', function (socket) {
-    socket.on('message', function (msg) {
-        io.emit('message', msg);
+    socket.on('chat message', function (msg) {
+        io.emit('chat message', msg);
     });
 });
 

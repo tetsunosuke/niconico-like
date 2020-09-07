@@ -11,13 +11,10 @@ const gsap = require('./node_modules/gsap/dist/gsap.min.js');
     </head>
     <body>
 <script>
-    console.log(typeof jQuery);
-console.log(typeof io, io);
-console.log(typeof gsap, gsap);
 $(function () {
-    const socket = io("http://cec788c36e71.ngrok.io/");
+    const socket = io("http://b6145b814bae.ngrok.io");
     console.log(socket);
-    socket.on("message", function(message) {
+    socket.on("chat message", function(message) {
         console.info(message);
         createText(message);
     });
