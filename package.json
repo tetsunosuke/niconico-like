@@ -15,7 +15,7 @@
   "dependencies": {
     "@slack/bolt": "^2.3.0",
     "@slack/events-api": "^2.3.4",
-    "@slack/web-api": "^5.11.0",
+    "@slack/web-api": "^5.13.0",
     "body-parser": "^1.19.0",
     "dateformat": "^3.0.3",
     "electron-store": "^5.2.0",
