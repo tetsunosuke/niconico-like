@@ -22,14 +22,14 @@
     "express": "^4.17.1",
     "gsap": "^3.5.1",
     "http": "0.0.1-security",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.0",
     "puppeteer-core": "^5.5.0",
     "puppeteer-in-electron": "^3.0.2",
     "socket.io": "^3.0.4"
   },
   "devDependencies": {
     "dateformat": "^4.3.1",
-    "electron": "^11.0.4",
+    "electron": "^12.0.5",
     "electron-builder": "^22.7.0"
   },
   "build": {
