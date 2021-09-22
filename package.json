@@ -17,7 +17,7 @@
     "@slack/events-api": "^2.3.4",
     "@slack/web-api": "^5.14.0",
     "body-parser": "^1.19.0",
-    "dateformat": "^4.3.1",
+    "dateformat": "^5.0.1",
     "electron-store": "^8.0.0",
     "express": "^4.17.1",
     "gsap": "^3.5.1",
@@ -28,7 +28,7 @@
     "socket.io": "^3.0.4"
   },
   "devDependencies": {
-    "dateformat": "^4.3.1",
+    "dateformat": "^5.0.1",
     "electron": "^12.0.5",
     "electron-builder": "^22.7.0"
   },
