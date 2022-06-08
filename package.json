@@ -23,7 +23,7 @@
     "gsap": "^3.5.1",
     "http": "0.0.1-security",
     "jquery": "^3.5.1",
-    "puppeteer-core": "^5.5.0",
+    "puppeteer-core": "^14.3.0",
     "puppeteer-in-electron": "^3.0.2",
     "socket.io": "^3.0.4"
   },
